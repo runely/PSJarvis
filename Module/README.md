@@ -16,3 +16,7 @@ Import-Module PSJarvis
 
 Add-PSJarvisFile -FilePath "FullPath-To-ScriptFile" [-Encoding]
 ```
+
+### ToDo
+* Get-ScriptCommentBlock.ps1
+    * Add support for having help command block inside function
