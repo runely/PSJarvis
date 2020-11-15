@@ -1,0 +1,18 @@
+# PSJarvis Module
+
+PowerShell module to add/edit/remove script files to PSJarvis
+
+## Installation
+
+```powershell
+Install-Module -Name PSJarvis
+```
+
+## Usage
+
+```powershell
+# add script to PSJarvis
+Import-Module PSJarvis
+
+Add-PSJarvisFile -FilePath "FullPath-To-ScriptFile" [-Encoding]
+```
