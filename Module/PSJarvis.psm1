@@ -5,7 +5,7 @@ $functions = Get-ChildItem -Path $ScriptPath -Filter *.ps1 -Recurse -ErrorAction
 
 foreach ($function in $functions) {
     try {
-        . $_.FullName
+        . $function.FullName
     }
     catch {
         throw "Failed to dot source '$($_.FullName)'"
